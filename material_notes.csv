@@ -1,0 +1,10 @@
+,Indium Phosphide,Gallium Indium Arsenide Phosphide,Gallium Arsenide,Gallium Indium Arsenide,Indium Arsenide,Aluminium Arsenide,Aluminium(x) Gallium(1 - x) Arsenide (x < 0.45),Aluminium(x) Gallium(1 - x) Arsenide (x > 0.45),Gallium Phosphide,Gallium Indium Phosphide,Silicon,Germanium
+Energy gap $E_{g}$,300 K,"300 K, Ga_{x}In_{1-x}As_{y}P_{1-y}",300 K,"300 K, Ga_{x}In_{1-x}As",295 K,"300 K Gamma->X, 295 K Gamma->L",N/A,N/A,300 K,Taken from Ga_{0.47}In_{0.53}As_{0}P_{1},300 K,300 K - 291 K
+Electron affinity $χ$,300 K,N/A,300 K,"300 K, Ga_{x}In_{1-x}As",300 K,N/A,300 K,300 K,300 K,"300 K, Ga_{x}In_{1-x}P",300 K,300 K
+Electron mobility $μ_{n}$,300 K,indicative,300 K,"300 K, Ga_{x}In_{1-x}As",300 K,300 K,300 K,300 K,N/A,300 K,300 K,300 K
+Hole mobility $μ_{p}$,300 K,indicative,300 K,300 K,300 K,300 K,300 K,300 K,N/A,300 K,300 K,300 K
+Intrinsic carrier concentration $n_{i}$,N/A,indicative,300 K,"300 K, lowest for GaAs, highest for InAs",N/A,N/A,indicative,indicative,300 K,N/A,300 K,300 K
+Electron lifetime $τ_{n}$,longest lifetime,N/A,longest lifetime,N/A,longest lifetime,N/A,"300 K, indicative",N/A,longest lifetime,N/A,falls as donor concentration increases,"300 K, longest lifetime"
+Hole lifetime $τ_{p}$,longest lifetime,N/A,longest lifetime,longest lifetime,longest lifetime,N/A,"300 K, indicative",N/A,longest lifetime,N/A,falls as acceptor concentration increases,"300 K, longest lifetime"
+(Static) relative permittivity $ε_{r}$,300 K,300 K,300 K,"300 K, Ga_{x}In_{1-x}As",300 K,N/A,300 K,300 K,300 K,"300 K, Ga_{x}In_{1-x}P",300 K,300 K
+Surface recombination velocity $S_{p/n}$,indicative,indicative,indicative,indicative,indicative,N/A,free surface,N/A,indicative,indicative,indicative,indicative

@@ -1,0 +1,11 @@
+{
+    "energy_gap": "Energy gap $E_{g}$",
+    "electron_affinity": "Electron affinity $χ$",
+    "electron_mobility": "Electron mobility $μ_{n}$",
+    "hole_mobility": "Hole mobility $μ_{p}$",
+    "intrinsic_carrier_concentration": "Intrinsic carrier concentration $n_{i}$",
+    "electron_lifetime": "Electron lifetime $τ_{n}$",
+    "hole_lifetime": "Hole lifetime $τ_{p}$",
+    "static_relative_permittivity": "(Static) relative permittivity $ε_{r}$",
+    "surface_recombination_velocity": "Surface recombination velocity $S_{p/n}$"
+}

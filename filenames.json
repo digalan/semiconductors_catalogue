@@ -1,0 +1,8 @@
+{
+    "values_csv": "material_values",
+    "units_csv": "material_units",
+    "citekey_csv": "material_citekey",
+    "notes_csv": "material_notes",
+    "excel": "material_table",
+    "latex_tables": "latex_tables"
+}

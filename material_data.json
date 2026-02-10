@@ -1,0 +1,1150 @@
+{
+    "InP": {
+        "full_name": "Indium Phosphide",
+        "energy_gap": {
+            "value": [
+                1.344
+            ],
+            "units": "eV",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_affinity": {
+            "value": [
+                4.38
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_mobility": {
+            "value": [
+                4e3,
+                5.4e3
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "value": [
+                190,
+                200
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                1.3e7
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "NSMArchivePhysical"
+            ]
+        },
+        "electron_lifetime": {
+            "value": [
+                1e-8,
+                2e-9
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "hole_lifetime": {
+            "value": [
+                3e-6
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "static_relative_permittivity": {
+            "value": [
+                12.56
+            ],
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                5e3,
+                1e6
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    },
+    "GaInAsP": {
+        "full_name": "Gallium Indium Arsenide Phosphide",
+        "energy_gap": {
+            "quaternary": true,
+            "a0": [
+                1.35
+            ],
+            "ax": [
+                0.668
+            ],
+            "ay": [
+                -1.068
+            ],
+            "axx": [
+                0.758
+            ],
+            "ayy": [
+                0.078
+            ],
+            "axy": [
+                -0.069
+            ],
+            "axxy": [
+                -0.332
+            ],
+            "axyy": [
+                0.03
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, Ga_{x}In_{1-x}As_{y}P_{1-y}"
+        },
+        "electron_mobility": {
+            "value": [
+                4e3,
+                11e3
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        },
+        "hole_mobility": {
+            "value": [
+                50,
+                300
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                1e7,
+                1e13
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        },
+        "static_relative_permittivity": {
+            "value": [
+                12.5,
+                13.94
+            ],
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                1e4,
+                1e5
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    },
+    "GaAs": {
+        "full_name": "Gallium Arsenide",
+        "energy_gap": {
+            "value": [
+                1.424
+            ],
+            "units": "eV",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_affinity": {
+            "value": [
+                4.07
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_mobility": {
+            "value": [
+                2e3,
+                8.5e3
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "value": [
+                400,
+                450
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                2.1e6
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_lifetime": {
+            "value": [
+                5e-9,
+                2.5e-7
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "hole_lifetime": {
+            "value": [
+                3e-6
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "static_relative_permittivity": {
+            "value": [
+                12.8,
+                12.9
+            ],
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                1e4,
+                1e7
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    },
+    "GaInAs": {
+        "full_name": "Gallium Indium Arsenide",
+        "energy_gap": {
+            "ternary": true,
+            "a0": [
+                0.36
+            ],
+            "ax": [
+                0.63
+            ],
+            "axx": [
+                0.43
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, Ga_{x}In_{1-x}As"
+        },
+        "electron_affinity": {
+            "ternary": true,
+            "a0": [
+                4.9
+            ],
+            "ax": [
+                -0.83
+            ],
+            "axx": [
+                0.0
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, Ga_{x}In_{1-x}As"
+        },
+        "electron_mobility": {
+            "ternary": true,
+            "a0": [
+                40e3
+            ],
+            "ax": [
+                -80.7e3
+            ],
+            "axx": [
+                49.2e3
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, Ga_{x}In_{1-x}As"
+        },
+        "hole_mobility": {
+            "value": [
+                300,
+                400
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                2.1e6,
+                1e15
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, lowest for GaAs, highest for InAs"
+        },
+        "hole_lifetime": {
+            "value": [
+                10
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "static_relative_permittivity": {
+            "ternary": true,
+            "a0": [
+                15.1
+            ],
+            "ax": [
+                -2.87
+            ],
+            "axx": [
+                0.67
+            ],
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, Ga_{x}In_{1-x}As"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                1e6
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    },
+    "InAs": {
+        "full_name": "Indium Arsenide",
+        "energy_gap": {
+            "value": [
+                0.354
+            ],
+            "units": "eV",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "295 K"
+        },
+        "electron_affinity": {
+            "value": [
+                4.9
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_mobility": {
+            "value": [
+                2e4,
+                4e4
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "value": [
+                100,
+                500
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                1e15
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "NSMArchivePhysical"
+            ]
+        },
+        "electron_lifetime": {
+            "value": [
+                3e-8
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "hole_lifetime": {
+            "value": [
+                3e-6
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "static_relative_permittivity": {
+            "value": [
+                15.15
+            ],
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                1e2,
+                1e4
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    },
+    "AlAs": {
+        "full_name": "Aluminium Arsenide",
+        "energy_gap": {
+            "value": [
+                2.153,
+                2.363
+            ],
+            "units": "eV",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018"
+            ],
+            "notes": "300 K Gamma->X, 295 K Gamma->L"
+        },
+        "electron_mobility": {
+            "value": [
+                75,
+                293
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "value": [
+                105
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018"
+            ],
+            "notes": "300 K"
+        },
+        "static_relative_permittivity": {
+            "value": [
+                10.1
+            ],
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018"
+            ]
+        }
+    },
+    "AlGaAs_x_smaller_0.45": {
+        "full_name": "Aluminium(x) Gallium(1 - x) Arsenide (x < 0.45)",
+        "energy_gap": {
+            "ternary": true,
+            "a0": [
+                1.424
+            ],
+            "ax": [
+                1.247
+            ],
+            "axx": [
+                0.0
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ]
+        },
+        "electron_affinity": {
+            "ternary": true,
+            "a0": [
+                4.07
+            ],
+            "ax": [
+                -1.1
+            ],
+            "axx": [
+                0.0
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_mobility": {
+            "ternary": true,
+            "a0": [
+                8e3
+            ],
+            "ax": [
+                -22e3
+            ],
+            "axx": [
+                10e3
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "ternary": true,
+            "a0": [
+                370
+            ],
+            "ax": [
+                -970
+            ],
+            "axx": [
+                740
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                2.5e2,
+                2.1e6
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        },
+        "electron_lifetime": {
+            "value": [
+                5e-9,
+                30e-9
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, indicative"
+        },
+        "hole_lifetime": {
+            "value": [
+                1e-9,
+                20e-9
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, indicative"
+        },
+        "static_relative_permittivity": {
+            "ternary": true,
+            "a0": [
+                12.9
+            ],
+            "ax": [
+                -2.84
+            ],
+            "axx": [
+                0.0
+            ],
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                4e5
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "free surface"
+        }
+    },
+    "AlGaAs_x_larger_0.45": {
+        "full_name": "Aluminium(x) Gallium(1 - x) Arsenide (x > 0.45)",
+        "energy_gap": {
+            "ternary": true,
+            "a0": [
+                1.9
+            ],
+            "ax": [
+                0.125
+            ],
+            "axx": [
+                0.143
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ]
+        },
+        "electron_affinity": {
+            "ternary": true,
+            "a0": [
+                3.64
+            ],
+            "ax": [
+                -0.14
+            ],
+            "axx": [
+                0.0
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_mobility": {
+            "ternary": true,
+            "a0": [
+                -255
+            ],
+            "ax": [
+                1160
+            ],
+            "axx": [
+                -720
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "ternary": true,
+            "a0": [
+                370
+            ],
+            "ax": [
+                -970
+            ],
+            "axx": [
+                740
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                4.3e1,
+                2.5e2
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        },
+        "static_relative_permittivity": {
+            "ternary": true,
+            "a0": [
+                12.9
+            ],
+            "ax": [
+                -2.84
+            ],
+            "axx": [
+                0.0
+            ],
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        }
+    },
+    "GaP": {
+        "full_name": "Gallium Phosphide",
+        "energy_gap": {
+            "value": [
+                2.26,
+                2.272
+            ],
+            "units": "eV",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_affinity": {
+            "value": [
+                3.8
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_mobility": {
+            "value": [
+                160,
+                250
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ]
+        },
+        "hole_mobility": {
+            "value": [
+                135,
+                150
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ]
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                2
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_lifetime": {
+            "value": [
+                1e-7
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "hole_lifetime": {
+            "value": [
+                1e-6
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "longest lifetime"
+        },
+        "static_relative_permittivity": {
+            "value": [
+                11.11
+            ],
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                0.4e6,
+                2e6
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    },
+    "GaInP": {
+        "full_name": "Gallium Indium Phosphide",
+        "energy_gap": {
+            "value": [
+                1.344
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "Taken from Ga_{0.47}In_{0.53}As_{0}P_{1}"
+        },
+        "electron_affinity": {
+            "ternary": true,
+            "a0": [
+                4.38
+            ],
+            "ax": [
+                -0.58
+            ],
+            "axx": [
+                0.0
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, Ga_{x}In_{1-x}P"
+        },
+        "electron_mobility": {
+            "value": [
+                50,
+                1000
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "value": [
+                6,
+                40
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "static_relative_permittivity": {
+            "ternary": true,
+            "a0": [
+                12.5
+            ],
+            "ax": [
+                -1.4
+            ],
+            "axx": [
+                0.0
+            ],
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, Ga_{x}In_{1-x}P"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                2e4,
+                5e4
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    },
+    "Si": {
+        "full_name": "Silicon",
+        "energy_gap": {
+            "value": [
+                1.1242
+            ],
+            "units": "eV",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_affinity": {
+            "value": [
+                4.05
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_mobility": {
+            "value": [
+                1400,
+                1450
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "value": [
+                370,
+                450
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                1.02e10
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_lifetime": {
+            "value": [
+                1e-9,
+                1e-3
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "falls as donor concentration increases"
+        },
+        "hole_lifetime": {
+            "value": [
+                1e-9,
+                1e-3
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "falls as acceptor concentration increases"
+        },
+        "static_relative_permittivity": {
+            "value": [
+                11.7
+            ],
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                1e2,
+                8e4
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    },
+    "Ge": {
+        "full_name": "Germanium",
+        "energy_gap": {
+            "value": [
+                0.661,
+                0.664
+            ],
+            "units": "eV",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K - 291 K"
+        },
+        "electron_affinity": {
+            "value": [
+                4.0
+            ],
+            "units": "eV",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_mobility": {
+            "value": [
+                3800,
+                3900
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "hole_mobility": {
+            "value": [
+                1800,
+                1900
+            ],
+            "units": "cm^{2} / V / s",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "intrinsic_carrier_concentration": {
+            "value": [
+                2.0e13,
+                2.33e13
+            ],
+            "units": "cm^{-3}",
+            "sources": [
+                "warlimontSpringerHandbookMaterials2018",
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "electron_lifetime": {
+            "value": [
+                1e-3
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, longest lifetime"
+        },
+        "hole_lifetime": {
+            "value": [
+                1e-3
+            ],
+            "units": "s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K, longest lifetime"
+        },
+        "static_relative_permittivity": {
+            "value": [
+                16.2
+            ],
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "300 K"
+        },
+        "surface_recombination_velocity": {
+            "value": [
+                1e1,
+                1e6
+            ],
+            "units": "cm / s",
+            "sources": [
+                "NSMArchivePhysical"
+            ],
+            "notes": "indicative"
+        }
+    }
+}

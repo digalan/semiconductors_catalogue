@@ -1,0 +1,69 @@
+\documentclass{article}
+
+%smaller page margins
+\usepackage[a3paper, hratio=1:1, landscape]{geometry}
+
+%adds amsmath and some other commands for math typesetting
+\usepackage{mathtools}
+
+%New Computer Modern fonts
+\usepackage{fontsetup}
+
+%proper guillemets(probably only necessary for the bibliography)
+\usepackage{csquotes}
+
+%block comments
+\usepackage{comment}
+
+%to reaad the input file from JSON
+\usepackage{jsonparse}
+
+%for tables that extend over multiple pages
+\usepackage{longtable}
+
+%clickable references
+\usepackage[unicode]{hyperref}
+\hypersetup{
+	colorlinks = true,
+	allcolors = blue,
+	bookmarksnumbered = true,
+	bookmarksopen = true,
+}
+
+%adds more options for bookmarks
+%I use it because it makes possible to produce bookmarks on the first run
+%\usepackage{bookmark}
+
+%bibliography
+\usepackage[
+	style = phys,
+	backend = biber,
+	isbn = false,
+	url = false,
+	doi = false,
+	autolang = other,
+	biblabel = brackets,
+]{biblatex}
+\AtEveryBibitem{\clearlist{language}}
+%to not automatically turn titles to lowercase
+\DeclareFieldFormat{titlecase}{#1}
+\DeclareFieldFormat[thesis]{title}{\iffieldundef{url}{\emph{#1}}{\href{\thefield{url}}{\emph{#1}}}}
+\addbibresource{sources.bib}
+
+%microtypography corrections
+\usepackage{microtype}
+
+\JSONParseFromFile{\myJSONdata}{filenames.json}
+
+\begin{document}
+
+\tiny
+\newgeometry{left=0pt, right=0pt}
+\input{\JSONParseExpandableValue{\myJSONdata}{latex_tables}.tex}
+
+\restoregeometry
+
+\normalsize
+\printbibliography
+
+\end{document}

@@ -1,0 +1,10 @@
+,Indium Phosphide,Gallium Indium Arsenide Phosphide,Gallium Arsenide,Gallium Indium Arsenide,Indium Arsenide,Aluminium Arsenide,Aluminium(x) Gallium(1 - x) Arsenide (x < 0.45),Aluminium(x) Gallium(1 - x) Arsenide (x > 0.45),Gallium Phosphide,Gallium Indium Phosphide,Silicon,Germanium
+Energy gap $E_{g}$,eV,eV,eV,eV,eV,eV,eV,eV,eV,eV,eV,eV
+Electron affinity $χ$,eV,N/A,eV,eV,eV,N/A,eV,eV,eV,eV,eV,eV
+Electron mobility $μ_{n}$,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s
+Hole mobility $μ_{p}$,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s,cm^{2} / V / s
+Intrinsic carrier concentration $n_{i}$,cm^{-3},cm^{-3},cm^{-3},cm^{-3},cm^{-3},N/A,cm^{-3},cm^{-3},cm^{-3},N/A,cm^{-3},cm^{-3}
+Electron lifetime $τ_{n}$,s,N/A,s,N/A,s,N/A,s,N/A,s,N/A,s,s
+Hole lifetime $τ_{p}$,s,N/A,s,s,s,N/A,s,N/A,s,N/A,s,s
+(Static) relative permittivity $ε_{r}$,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Surface recombination velocity $S_{p/n}$,cm / s,cm / s,cm / s,cm / s,cm / s,N/A,cm / s,N/A,cm / s,cm / s,cm / s,cm / s
