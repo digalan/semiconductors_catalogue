@@ -3,7 +3,7 @@
 A collection of semiconductor parameters in JSON format
 and a Python script to export them in `CSV`,
 `Excel` and `LaTeX` form. It should be available
-at <>.
+at <https://github.com/digalan/semiconductors_catalogue.git>.
 
 ## Installation
 
@@ -13,13 +13,13 @@ Open a terminal, navigate to the directory where
 you want to place the `semiconductors_catalogue` folder
 and type
 
-        git clone 
+    git clone https://github.com/digalan/semiconductors_catalogue.git
 
 After that, you can get the newest version by
 entering the `semiconductors_catalogue` folder and
 typing
 
-        git pull
+    git pull
 
 ### Without Git
 
@@ -49,7 +49,7 @@ parameters. `filenames.json` contains the file names
 
 After modifying `material_data.json`, run the Python script,
 
-        python json_to_csv.py
+    python json_to_csv.py
 
 to update the `CSV` and `Excel` files and produce
 new tables for `LaTeX`. `table_summary.tex` takes
@@ -57,9 +57,9 @@ those tables, stored in a separate `.tex` file,
 and typesets them. To compile the document, open a terminal
 in the `semiconductors_catalogue` folder and type
 
-        lualatex table_summary.tex
-        biber table_summary
-        lualatex table_summary.tex
+    lualatex table_summary.tex
+    biber table_summary
+    lualatex table_summary.tex
 
 `sources.bib` contains `BibLatex` entries for the sources
 from which material data was taken.
