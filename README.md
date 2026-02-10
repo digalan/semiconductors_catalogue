@@ -3,7 +3,7 @@
 A collection of semiconductor parameters in JSON format
 and a Python script to export them in `CSV`,
 `Excel` and `LaTeX` form. It should be available
-at <https://github.com/digalan/semiconductors_catalogue.git>.
+at <https://github.com/digalan/semiconductors_catalogue>.
 
 ## Installation
 
@@ -23,6 +23,9 @@ typing
 
 ### Without Git
 
+Press the green button saying *Code* on the
+[GitHub page](https://github.com/digalan/semiconductors_catalogue)
+and choose the option *Download ZIP*.
 
 ## Requirements
 
